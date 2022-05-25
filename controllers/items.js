@@ -44,7 +44,7 @@ const deleteItem = (req, reply) => {
 
     items = items.filter((item) => item.id !== id)
 
-    return reply.send({message: `${id} removed okay`})
+    return reply.send({message: `item removed okay`})
 }
 
 module.exports = {
